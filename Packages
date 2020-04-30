@@ -1,0 +1,36 @@
+Package: kr.xsf1re.flyjb
+Version: 0.3~alpha10
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: deb/kr.xsf1re.flyjb_0.3_alpha10_iphoneos-arm.deb
+Size: 641832
+MD5sum: ecf0ad62bd3567111bac487742a565e3
+SHA1: 699a8a752a9daa3b465b2184ee7b0cb0713e6e05
+SHA256: 9587ce518e656a2f3f20a6dcced966122e6bf5fd78f7687133957932b227b737
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB
+
+
+Package: com.dave1482.powerapp
+Pre-Depends: firmware (>= 3.0), system-cmds, shell-cmds, coreutils
+Recommends: com.midnightchips.ldrun
+Conflicts: com.dave1482.powerappbeta
+Filename: deb/com.yourepo.profe.jbsetup_1.0.2_iphoneos-arm.deb
+Size: 52024
+MD5sum: 2eac8806aa026da0d0554525476fd349
+SHA1: c509e48720017a3c05e9114228d459ecd543c63d
+SHA256: 69e45c5c015a826642b570ff43b780f2b5dbabad83d3cbf5ba30c29ee544f21c
+Name: JBsetup
+Version: 5.0
+Architecture: iphoneos-arm
+Description: Reboot, Shutdown, Respring, go into Safemode
+Maintainer: Dave1482
+Author: Dave1482
+Section: Utilities
+dev: thedave1482
+Icon: file:///Applications/PowerApp.app/Icon.png
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
