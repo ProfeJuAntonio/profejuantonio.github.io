@@ -14,23 +14,50 @@ Author: XsF1re
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 Name: FlyJB
 
-
-Package: com.dave1482.powerapp
-Pre-Depends: firmware (>= 3.0), system-cmds, shell-cmds, coreutils
-Recommends: com.midnightchips.ldrun
-Conflicts: com.dave1482.powerappbeta
-Filename: deb/com.yourepo.profe.jbsetup_1.0.2_iphoneos-arm.deb
+Package: com.jchandev.pikabulite
+Filename: deb/com.jchandev.pikabulite_1.1.0_iphoneos-arm.deb
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
 Size: 52024
-MD5sum: 2eac8806aa026da0d0554525476fd349
-SHA1: c509e48720017a3c05e9114228d459ecd543c63d
-SHA256: 69e45c5c015a826642b570ff43b780f2b5dbabad83d3cbf5ba30c29ee544f21c
-Name: JBsetup
-Version: 5.0
+MD5sum: 8da38649892d8adca4bb8137658069a6
+SHA1: d5a4488eca026f4540318c01b7e3a0850cac17a9
+SHA256: 6003875797f2b60590fd1f1856cae8d9b8e7c1b6e907d9a53d5385b5a58e321b
+Description: Minimalistic volume hud on the notch.
+Name: Pikabu Lite
+Version: 1.1.0
 Architecture: iphoneos-arm
 Description: Reboot, Shutdown, Respring, go into Safemode
-Maintainer: Dave1482
-Author: Dave1482
-Section: Utilities
-dev: thedave1482
-Icon: file:///Applications/PowerApp.app/Icon.png
-Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
+Maintainer: Jeffrey Chan
+Author: Jeffrey Chan
+Section: Tweaks
+
+Package: com.shiftcmdk2.jbsetup
+Filename: deb/com.shiftcmdk2.jbsetup_1.0.2_iphoneos-arm.deb
+Depends: mobilesubstrate
+Size: 52024
+MD5sum: d99cd7f02de41e3d0df3204f22e865f5
+SHA1: da77d50691cb3681d188d1f83d3a7450c5730cb9
+SHA256: 6484dd27e28e8381b1a184faa22a4f0fb450b18e594011798776ef20341a2f47
+Description: A setup UI to change the root and mobile password after jailbreaking.
+Maintainer: shiftcmdk
+Author: shiftcmdk
+Section: Tweaks
+Version: 1.0.2
+Name: jbsetup
+Architecture: iphoneos-arm
+
+Package: com.iarrays.tsssaver2
+Pre-Depends: firmware (>=8.0)
+Filename: deb/com.iarrays.tsssaver2_1.0-beta-4_iphoneos-arm.deb
+Depends: mobilesubstrate, net.limneos.libbulletin
+Size: 52024
+MD5sum: 9c99d0eb28803057f7d3af673e1c984f
+SHA1: 1b637b5e0127a56a8f82d58da3d8de66c183499f
+SHA256: b9d943c670ff28751fb8343267b2fddae7c10551425fc5fc689541b33492abc2
+Description: A one-click tool to save blobs using TSSsaver.1conan.com, idea from @nullpixel's TSS Saver but entirely rewritten in Objective-C to support more features. Just install and leave the rest, this tool automatically saves SHSH blobs to TSSsaver.1conan.com.
+Maintainer: IArrays
+Author: IArrays
+Section: Tweaks
+Version: 1.0-beta-4
+Name: TSSSaver 2
+Architecture: iphoneos-arm
+Icon: file://Applications/TSSSaver.app/AppIcon40x40@2x.png
