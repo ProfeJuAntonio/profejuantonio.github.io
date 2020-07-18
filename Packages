@@ -57,10 +57,10 @@ Version: 1.0-beta-4
 Name: TSSSaver 2
 Architecture: iphoneos-arm
 Icon: file://Applications/TSSSaver.app/AppIcon40x40@2x.png
-Size: 52024
-MD5sum: 9c99d0eb28803057f7d3af673e1c984f
-SHA1: 1b637b5e0127a56a8f82d58da3d8de66c183499f
-SHA256: b9d943c670ff28751fb8343267b2fddae7c10551425fc5fc689541b33492abc2
+Size: 423588
+MD5sum: f9c74c0f9bd5472e7359aeca62e1e923
+SHA1: 5d324b4a1e016597cb3e696b499745d31fd344d5
+SHA256: 9df708922d2a96b5283143e22b42e505663a6eaa5cabeacd6d21416cb4a80c66
 
 Package: kr.xsf1re.flyjbstable
 Name: FlyJB Stable
