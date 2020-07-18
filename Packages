@@ -8,11 +8,28 @@ Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Name: FlyJB
+Name: FlyJB Alfa
 Size: 641832
 MD5sum: ecf0ad62bd3567111bac487742a565e3
 SHA1: 699a8a752a9daa3b465b2184ee7b0cb0713e6e05
 SHA256: 9587ce518e656a2f3f20a6dcced966122e6bf5fd78f7687133957932b227b737
+
+Package: kr.xsf1re.flyjbstable
+Name: FlyJB Stable
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Architecture: iphoneos-arm
+Description: You can HIDE Doing jailbreak your iDevice.
+Maintainer: XsF1re
+Author: XsF1re
+Filename: deb/kr.xsf1re.flyjbstable_0.2.5.6_iphoneos-arm.deb
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Version: 0.2.5.6
+Installed-Size: 1268
+Size: 630460
+MD5sum: 93a019593c0b07e5685cc2d983271bcb
+SHA1: 8a97d85031d0ec89c8e22fae776bf61b3c7b96a1
+SHA256: 24822b956bc305d58e1c8c748b75e58e7d0850f3dc1e8733fb2932a544200b79
 
 Package: com.jchandev.pikabulite
 Filename: deb/com.jchandev.pikabulite_1.1.0_iphoneos-arm.deb
@@ -25,10 +42,10 @@ Description: Reboot, Shutdown, Respring, go into Safemode
 Maintainer: Jeffrey Chan
 Author: Jeffrey Chan
 Section: Tweaks
-Size: 52024
-MD5sum: 8da38649892d8adca4bb8137658069a6
-SHA1: d5a4488eca026f4540318c01b7e3a0850cac17a9
-SHA256: 6003875797f2b60590fd1f1856cae8d9b8e7c1b6e907d9a53d5385b5a58e321b
+Size: 230548
+MD5sum: dbe7838ac21e34237b7c9ae71d9b07bd
+SHA1: e28755ff5c02d984b113a1f7d10c216d4c396ea6
+SHA256: efc975ac7a3af15b1d45b928184d85992733f67a2fe722d75695c245d9200389
 
 Package: com.shiftcmdk2.jbsetup
 Filename: deb/com.shiftcmdk2.jbsetup_1.0.2_iphoneos-arm.deb
@@ -40,10 +57,10 @@ Section: Tweaks
 Version: 1.0.2
 Name: jbsetup
 Architecture: iphoneos-arm
-Size: 52024
-MD5sum: d99cd7f02de41e3d0df3204f22e865f5
-SHA1: da77d50691cb3681d188d1f83d3a7450c5730cb9
-SHA256: 6484dd27e28e8381b1a184faa22a4f0fb450b18e594011798776ef20341a2f47
+Size: 112058
+MD5sum: 4e6fe56809772ee59370138dbebc883f
+SHA1: cb997e316fdb20bde30f4ec973080ac55a014139
+SHA256: a07823fefe4acbb12703ad26c493f7eb2f7f17b19f08e822e4854526ad44ad87
 
 Package: com.iarrays.tsssaver2
 Pre-Depends: firmware (>=8.0)
@@ -62,20 +79,18 @@ MD5sum: f9c74c0f9bd5472e7359aeca62e1e923
 SHA1: 5d324b4a1e016597cb3e696b499745d31fd344d5
 SHA256: 9df708922d2a96b5283143e22b42e505663a6eaa5cabeacd6d21416cb4a80c66
 
-Package: kr.xsf1re.flyjbstable
-Name: FlyJB Stable
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Package: jp.akusio.kernbypass
+Name: KernBypass
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
 Architecture: iphoneos-arm
-Description: You can HIDE Doing jailbreak your iDevice.
-Maintainer: XsF1re
-Author: XsF1re
+Description: kernel level jailbreak detection bypass.
+Maintainer: akusio
+Author: akusio
 Section: Tweaks
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Version: 0.2.5.6
-Installed-Size: 1268
-Size: 52024
-MD5sum: 9c99d0eb28803057f7d3af673e1c984f
-SHA1: 1b637b5e0127a56a8f82d58da3d8de66c183499f
-SHA256: b9d943c670ff28751fb8343267b2fddae7c10551425fc5fc689541b33492abc2
-
-
+Version: 0.0.3
+Installed-Size: 544
+Filename: deb/jp.akusio.kernbypass_0.0.3_iphoneos-arm.deb
+Size: 15114
+MD5sum: d8f11bd2b2e85b0034318b48b21f7d79
+SHA1: 1f0b964c4ed4ff15ceb3d12e974528695090c993
+SHA256: 2148d1b3f39a77ea65adbebc4aaa970241a165aae8cf3187232c3f028d9a25f0
